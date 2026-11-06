@@ -45,8 +45,6 @@ public class VentanaInicioSesion extends javax.swing.JFrame {
 
         lblContrasena.setText("Contraseña:");
 
-        txtContrasena.setText("jPasswordField1");
-
         btnIniciarSesion.setText("Iniciar sesión");
         btnIniciarSesion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,7 +69,7 @@ public class VentanaInicioSesion extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(btnIniciarSesion, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE)
                             .addComponent(txtContrasena))))
-                .addContainerGap(134, Short.MAX_VALUE))
+                .addContainerGap(135, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)

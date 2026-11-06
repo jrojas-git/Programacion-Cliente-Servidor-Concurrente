@@ -40,7 +40,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="134" max="32767" attributes="0"/>
+              <EmptySpace pref="135" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
@@ -90,9 +90,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtContrasena">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jPasswordField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnIniciarSesion">
       <Properties>
